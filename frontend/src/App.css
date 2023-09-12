@@ -1,24 +1,40 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.App {
   text-align: center;
+  background-color: lightcoral;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  animation: animate 6s linear infinite; 
+  border: #0d2938 solid 5px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-@keyframes logo-spin {
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -27,16 +43,100 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+#message {
+  font-size: 20px;
+}
+
+h1 {
+  color:rgb(252, 181, 0);   
+  animation-name: bounceIn;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-direction: 0s;
+  animation-iteration-count: 20;
+  font-size: 47px;
+}
+
+img {
+  width: 330px;
+  height: auto;
+  animation: animate 6s linear infinite;
+  animation-name: bounceIn;
+}
+
+form {
+  margin-top: 20px;
+  
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  font-size: 20px;
+  border: rgb(229, 163, 149) 2px solid;
+}
+
+button[type="submit"] {
+  background-color: rgb(212, 233, 240);
+    color: rgb(132, 4, 151);
+    border: rgb(229, 163, 149) 2px solid;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+div {
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+}
+
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(300deg);
   }
 }
 
-.card {
-  padding: 2em;
+@keyframes bounceIn {
+  0% {
+    transform: translateY(-800px);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
-.read-the-docs {
-  color: #888;
-} */
+@keyframes slideInleft {
+  from {
+    transform: translateX(-500px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(300deg);
+  }
+}
