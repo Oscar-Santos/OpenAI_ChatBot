@@ -1,51 +1,3 @@
-// const OpenAI = require('openai');
-// const { Configuration, OpenAIApi } = OpenAI
-
-
-// const express = require('express');
-// const app = express();
-// const cors = require('cors');
-// const bodyParser = require('body-parser');
-
-// const port = 4000 ;
-
-// const configuration = new Configuration({
-//     organization: "org-eYnp3AUeccZLuh7xaZTNSpCE",
-//     apiKey: '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',
-// });
-
-
-
-// const openai = new OpenAIApi(configuration);
-
-
-// app.use(cors());
-// app.use(bodyParser.json());
-
-
-// app.post('/', async (req, res) => {
-//     const response = await openai.createCompletion({
-//         model: "text-davinci-003",
-//         prompt: "Say this is a test.",
-//         max_tokens: 7,
-//         temperature: 0,
-//       });
-    
-//       console.log(response.data);
-//       if (response.data) {
-//         if (response.data.choices) {
-//             res.json({ message: response.data.choices[0].text })
-//         }
-//       }
-
-// })
-
-
-// app.listen(port, () => {
-//     console.log('Example app listening on port', port);
-// });
-
-
 
 const OpenAI = require("openai");
 const { Configuration, OpenAIApi } = OpenAI;
@@ -56,12 +8,12 @@ const cors = require('cors');
 const app = express();
 const port = 3001;
 
-// require('dotenv').config()
+require('dotenv').config()
 
 
 const configuration = new Configuration({
     organization: "org-eYnp3AUeccZLuh7xaZTNSpCE",
-    apiKey: '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',
+    apiKey: process.env.VITE_API_KEY,
 });
 
 
@@ -74,6 +26,15 @@ app.use(cors());
 
 app.post('/', async (req, res) => {
   const { message } = req.body;
+
+//   const isExpectedQuestion = /(business name|business logo|about us)/i.test(message);
+
+//   if (!isExpectedQuestion) {
+//     // If the user asks a different question, provide a default response
+//     res.json({ message: "This chatbot can only respond to questions about creating any type of name, logo, or 'About Us' story for a business." });
+//     return;
+//   }
+
   const response = await openai.createCompletion({
     model: "text-davinci-003",
     prompt: `Pretend you are a Chatbot. Answer with content about possible
