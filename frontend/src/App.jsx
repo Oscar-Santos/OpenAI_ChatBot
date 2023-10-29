@@ -81,7 +81,8 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch('http://localhost:3001/', {
+    // fetch('http://localhost:3001/', {
+    fetch('https://kadex.onrender.com/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
