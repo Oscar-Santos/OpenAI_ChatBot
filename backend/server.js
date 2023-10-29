@@ -24,14 +24,6 @@ app.use(cors());
 app.post('/', async (req, res) => {
   const { message } = req.body;
 
-//   const isExpectedQuestion = /(business name|business logo|about us)/i.test(message);
-
-//   if (!isExpectedQuestion) {
-//     // If the user asks a different question, provide a default response
-//     res.json({ message: "This chatbot can only respond to questions about creating any type of name, logo, or 'About Us' story for a business." });
-//     return;
-//   }
-
   const response = await openai.createCompletion({
     model: "text-davinci-003",
     prompt: `Pretend you are a Chatbot. Answer with content about possible
