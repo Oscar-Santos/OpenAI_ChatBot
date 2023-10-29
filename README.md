@@ -8,8 +8,6 @@ The highlight of this application is an interactive chatbot that leverages the p
 
 You can ask this chatbot for name suggestions, logo designs, or even an "about us" story for any type of business. It provides prompt-based responses, generating creative and relevant suggestions based on the input. Additionally, I have incorporated AI voice to deliver a thank-you message to the user.
 
-Using OpenAI's Temperature setting, I have restricted this chatbot to only answer the above 3 questions. However, I can remove this restriction and allow the chatbot to answer any question.
-
 Developing this application has been exciting but also challenging. I thoroughly enjoyed working on it and overcoming the various complexities that arose along the way.
 
 ![Screen Shot 2023-07-05 at 2 33 40 PM](https://github.com/Oscar-Santos/brandCraftPro_robotApp/assets/83252572/c7f0a66e-2565-4d9b-b8a7-9fecaced2686)
