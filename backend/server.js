@@ -10,13 +10,10 @@ const port = 3001;
 
 require('dotenv').config()
 
-
 const configuration = new Configuration({
     organization: "org-eYnp3AUeccZLuh7xaZTNSpCE",
     apiKey: process.env.VITE_API_KEY,
 });
-
-
 
 const openai = new OpenAIApi(configuration);
 
