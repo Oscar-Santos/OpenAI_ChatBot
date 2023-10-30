@@ -2,7 +2,7 @@
 # OPENAI CHATBOT APP
 
 ## Overview 🟣
-OpenAI Chatbot App is a small, yet complete full-stack application. For this app, I utilized various technologies such as React, React libraries, CSS, Node packages, and a Node.js server with the Express framework to create a web server.
+OpenAI Chatbot App is a small, yet complete full-stack application. For this App, I utilized various technologies such as Javascript, OpenAI Integrations, React, React libraries, CSS, Node packages, and a Node.js server with the Express framework to create a web server.
 
 The highlight of this application is an interactive chatbot that leverages the powerful "Text-DaVinci-oo3" model from OpenAI. Through API calls, the chatbot engages in conversations with users, simulating interactions with a real person. To ensure security, I have implemented the Dotenv module to load environment variables and conceal my API key, as OpenAI prioritizes data protection.
 
@@ -37,7 +37,7 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 - If these commands return the version numbers, it means Node.js and npm are installed. If not, you will need to install them from the official Node.js website [Node](https://nodejs.org).
   
-- After this, cd into the backend folder and run `node server.js`
+- After this, in your second terminal cd into the backend folder and run `node server.js`
 - if you get this error:
 
 <img width="1028" alt="Screen Shot 2023-10-30 at 12 34 47 PM" src="https://github.com/Oscar-Santos/OpenAI_ChatBot/assets/83252572/e90a21e0-5744-45bc-91c0-c0940f64a419">
