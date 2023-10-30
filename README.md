@@ -6,7 +6,7 @@ OpenAI Chatbot App is a small, yet complete full-stack application. For this App
 
 The highlight of this application is an interactive chatbot that leverages the powerful "Text-DaVinci-oo3" model from OpenAI. Through API calls, the chatbot engages in conversations with users, simulating interactions with a real person. To ensure security, I have implemented the Dotenv module to load environment variables and conceal my API key, as OpenAI prioritizes data protection.
 
-You can ask this chatbot for name suggestions, logo designs, or even an "about us" story for any type of business. It provides prompt-based responses, generating creative and relevant suggestions based on the input. Additionally, I have incorporated AI voice to deliver a thank-you message to the user.
+You can ask this chatbot for name suggestions, logo designs, or even an "about us" story for any type of business. It provides prompt-based responses, generating creative and relevant suggestions based on the input. Additionally, I have incorporated AI voice to deliver a greeting and a thank-you message to the user.
 
 Developing this application has been exciting but also challenging. I thoroughly enjoyed working on it and overcoming the various complexities that arose along the way.
 
