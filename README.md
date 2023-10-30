@@ -23,12 +23,11 @@ Developing this application has been exciting but also challenging. I thoroughly
 ## To set up this app locally, please follow these steps:🟣
 
 - Clone this repository using `git clone`. 
-- Navigate to the root directory by running `cd brandCraftPro_robotApp`.
-- Open two terminals simultaneously for the `brandCraftPro_robotApp`.
-- In the first terminal, run `npm start`.
-- After running 'npm start', if you encounter this error:
+- Navigate to the root directory by running `cd OpenAI_ChatBot`.
+- Open two terminals simultaneously for the `OpenAI_ChatBot`.
+- In one terminal cd into `frontend` and run `npm install` (This will install all the dependencies listed in the package.json file, including @vitejs/plugin-react.).
+- Now this frontend folder run `npm run dev `, and now you have the frontend side running!!
 
-![Screen Shot 2023-07-06 at 10 17 57 AM](https://github.com/Oscar-Santos/brandCraftPro_robotApp/assets/83252572/1240aa47-1251-4179-a3db-3f0cd00a6c06)
 
 - Then ensure that you have Node.js and npm (Node Package Manager) installed on your system. You can check this by running the following commands in your terminal or command prompt:
   </br>
@@ -38,36 +37,21 @@ Developing this application has been exciting but also challenging. I thoroughly
 
 - If these commands return the version numbers, it means Node.js and npm are installed. If not, you will need to install them from the official Node.js website [Node](https://nodejs.org).
   
-- After this, run the following command in your terminal `npm install` :
-- Once this installation is complete, run `npm start` in your first terminal.
-- Now in your second terminal, run: `node index.js`
-- Then you would have the App running from the Front-End, and from the Back-End, and ready to use it.
-- However if you ask a question to the chatbot and the terminal gives you this error:
+- After this, cd into the backend folder and run `node server.js`
+- if you get this error:
 
-  ![Screen Shot 2023-07-06 at 1 30 02 PM](https://github.com/Oscar-Santos/brandCraftPro_robotApp/assets/83252572/332c93f7-9d11-4d66-b90e-8c1d8411a467)
+<img width="1028" alt="Screen Shot 2023-10-30 at 12 34 47 PM" src="https://github.com/Oscar-Santos/OpenAI_ChatBot/assets/83252572/e90a21e0-5744-45bc-91c0-c0940f64a419">
 
-- Then, it means that you need to obtain an API key from OpenAI. Don't worry, getting one for free is easy.
+- That means you need to install the OpenAI Module, run `npm install openai`
+- Now, run 'node server.js` and the backend side is running!!
 
-## Obtaining an API key from OpenAI Chatgpt:🟣
+## How to run the App:🟣
 
-- To log in to your OpenAI account, please visit the [OpenAI site](https://openai.com/blog/chatgpt), If you don't have an account, you will need to create one.
-- Once you login, go to `API`
-- Go to `Personal` and click on `View API Keys`
-- Then click on `+ Create new secret key`
-- Now, copy your `API key` and your `Organization Key`
+- Open in a new tab your localhost frontend link, it will look like something like this:
 
-## Once you have obtained your OpenAI API key:🟣
+  <img width="1016" alt="Screen Shot 2023-10-30 at 12 41 04 PM" src="https://github.com/Oscar-Santos/OpenAI_ChatBot/assets/83252572/0e8fa6c9-ceab-41f3-991f-0f058e0ce7ef">
 
-- Please return to the App and open your preferred editor (e.g., `VS Code`, `Atom`, etc.) from the brandCraftPro_robotApp directory.
-- Open the `index.js` file.
-- And paste your `OpenAI API key` and your `Organization key` into this line of code:
-
-![Screen Shot 2023-07-06 at 3 57 00 PM](https://github.com/Oscar-Santos/brandCraftPro_robotApp/assets/83252572/ad7b0df5-b6e4-42c9-8d08-d13a54449be0)
-
-
-- Save the file, and now, once again, run `npm start` in one terminal, and in your second terminal, run `node index.js`.
-- Now the App should be up and running!! Feel free to ask one of the three business-related questions to the App and see how it responds!!
-
+- Once you do that, you will see the Chatbot and now you can ask any question to the Chatbot App!!!!
   
 ## Framework🟣
 <p>
