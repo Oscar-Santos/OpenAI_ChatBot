@@ -10,13 +10,14 @@ You can ask this chatbot for name suggestions, logo designs, or even an "about u
 
 Developing this application has been exciting but also challenging. I thoroughly enjoyed working on it and overcoming the various complexities that arose along the way.
 
-![Screen Shot 2023-07-05 at 2 33 40 PM](https://github.com/Oscar-Santos/brandCraftPro_robotApp/assets/83252572/c7f0a66e-2565-4d9b-b8a7-9fecaced2686)
+![Screen Shot 2023-10-30 at 11 49 09 AM](https://github.com/Oscar-Santos/OpenAI_ChatBot/assets/83252572/e5b879e3-7995-4d72-991c-eb3403db0745)
 
-![Screen Shot 2023-07-05 at 2 37 33 PM](https://github.com/Oscar-Santos/brandCraftPro_robotApp/assets/83252572/977fc89e-8997-46b7-83b1-638c055789d8)
+![Screen Shot 2023-10-30 at 11 50 28 AM](https://github.com/Oscar-Santos/OpenAI_ChatBot/assets/83252572/133ea83e-4125-4df3-be24-274d7e1d55f8)
 
-![Screen Shot 2023-07-05 at 2 39 06 PM](https://github.com/Oscar-Santos/brandCraftPro_robotApp/assets/83252572/05e0bef8-79c0-4cd9-9f0e-75686c71042f)
 
-![Screen Shot 2023-07-05 at 2 54 12 PM](https://github.com/Oscar-Santos/brandCraftPro_robotApp/assets/83252572/099c875c-83aa-4bde-95dd-6927ca5ad9a8)
+![Screen Shot 2023-10-30 at 11 51 36 AM](https://github.com/Oscar-Santos/OpenAI_ChatBot/assets/83252572/059e0262-d748-40b1-a71c-35b0dc350fa1)
+
+
 
 
 ## To set up this app locally, please follow these steps:🟣
