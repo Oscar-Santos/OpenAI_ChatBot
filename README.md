@@ -1,5 +1,5 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-# OPENAI CHATBOT APP
+# OpenAI CHATBOT APP
 
 ## Overview 🟣
 OpenAI Chatbot App is a small, yet complete full-stack application. For this App, I utilized various technologies such as Javascript, OpenAI Integrations, React, React libraries, CSS, Node packages, and a Node.js server with the Express framework to create a web server.
